@@ -174,3 +174,161 @@ footer{
 
    
 }
+
+@media screen and (max-width: 600px) { 
+
+    .Container{
+
+        border-top: 10px solid rebeccapurple;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 100%;
+        height: 200px;
+        -webkit-box-shadow: 9px 7px 5px 0px rgba(0,0,0,0.58);
+        -moz-box-shadow: 9px 7px 5px 0px rgba(0,0,0,0.58);
+        box-shadow: 9px 7px 5px 0px rgba(0,0,0,0.58);
+        background: rgb(250, 250, 250);
+      
+    
+    }
+
+    body{
+        background-image: url("https://www.agroptima.com/wp-content/uploads/2019/10/cultivar-lavanda-gran-escala.jpg");
+      background-size:100%;
+      height: 100%;
+      
+ }
+
+
+ .Container > ul > li > a{
+    text-decoration: none;
+}
+.Container > ul > li > a:hover{
+    background: rebeccapurple;
+    padding: 6px 2px 2px 6px;
+    color: white;
+    border-radius: 3px;
+
+    
+}
+
+.Container > ul > li {
+    
+    margin-top: 2%;
+    
+    
+    
+}
+
+.Container > ul {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    list-style: none;
+    margin-left: 0;
+    
+    
+}
+
+
+.corpo{
+    display: flex;
+    flex-direction: row;
+    justify-content: none;
+}
+
+.card-esquerdo{
+    display: flex;
+    flex-direction: column;
+
+    width: 60%;
+    height: 100%;
+   
+    background-color: rgba(243, 250, 243, 0.5);
+    margin-left: 2%;
+    
+
+}
+
+.card-esquerdo > h2{
+    text-align: center;
+    font-family: 'Yesteryear', cursive;
+    font-size: 30px;
+}
+
+.card-esquerdo > p {
+    font-size: 20px;
+    width: 70%;
+    text-align: center;
+    margin-left: 12%;
+}
+
+
+
+.video{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6%;
+    margin-top: 5%;
+
+
+
+}
+
+
+
+
+
+.video > ul{
+    display: block;
+
+
+    
+}
+
+.video > ul > li {
+    margin-left: 2%;
+    list-style: none;
+}
+
+.video >ul> li> p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: bolder;
+   
+   
+}
+
+.video >ul> li> iframe{
+    width: 200px;
+    height: 150px;
+}
+
+
+.lavander > img{
+    margin-top: 20%;
+    margin-left: 30%;
+    width: 50%;
+    height: 10%;
+    border-radius: 15px;
+
+}
+
+.lavander p > a {
+   text-align: center;
+   background: blueviolet;
+   text-decoration: none;
+   color: white;
+   padding: 15px 15px;
+   font-size: 12px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   border-radius: 15px;
+
+   
+}
+
+.lavander > p{
+    margin-top: 10%;
+    text-align: center;}
+
+
+}
